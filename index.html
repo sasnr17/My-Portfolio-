@@ -1,0 +1,161 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathyasreya N. | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #faf8ff;
+      color: #29213d;
+      line-height: 1.7;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+      background: white;
+      box-shadow: 0 2px 12px #ddd;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .logo { color: #7545d6; font-size: 23px; font-weight: bold; }
+    nav a {
+      color: #29213d;
+      text-decoration: none;
+      margin-left: 18px;
+      font-weight: bold;
+    }
+    nav a:hover { color: #7545d6; }
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #f3eaff, #fff);
+    }
+    .badge {
+      background: #e9dcff;
+      color: #7545d6;
+      padding: 7px 18px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: clamp(34px, 7vw, 58px); line-height: 1.2; }
+    h1 span, h2 span { color: #7545d6; }
+    .hero p { max-width: 600px; margin: 20px 0; color: #655b76; }
+    .button {
+      display: inline-block;
+      background: #7545d6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 9px;
+      text-decoration: none;
+      margin: 8px;
+    }
+    .button:hover { background: #5930b0; }
+    .outline { background: white; color: #7545d6; border: 1px solid #7545d6; }
+    section { padding: 65px 8%; }
+    h2 { text-align: center; font-size: 32px; margin-bottom: 28px; }
+    .about {
+      max-width: 750px;
+      margin: auto;
+      text-align: center;
+      color: #655b76;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      max-width: 950px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px #e9e2f3;
+      text-align: center;
+    }
+    .card h3 { color: #7545d6; margin-bottom: 10px; }
+    #projects { background: #f2edfb; }
+    .contact { text-align: center; }
+    .contact p { margin-bottom: 15px; }
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: #29213d;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      header { justify-content: center; }
+      nav { text-align: center; }
+      nav a { margin: 5px 7px; display: inline-block; }
+      section { padding: 50px 6%; }
+    }
+  </style>
+</head>
+<body>  <header>
+    <div class="logo">Sathyasreya.</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <main>
+    <section class="hero" id="home">
+      <div class="badge">Welcome to my portfolio ✨</div>
+      <h1>Hi, I'm <span>Sathyasreya N.</span></h1>
+      <p>An aspiring web developer passionate about technology, creativity, and learning new skills. Welcome to my personal portfolio!</p>
+      <div>
+        <a class="button" href="#projects">Explore My Work</a>
+        <a class="button outline" href="#contact">Contact Me</a>
+      </div>
+    </section><section id="about">
+  <h2>About <span>Me</span></h2>
+  <p class="about">I'm a beginner web developer exploring the world of web development. I enjoy learning how websites are designed and built. My goal is to improve my technical skills and create useful, user-friendly websites through practice and creativity.</p>
+</section>
+
+<section id="skills">
+  <h2>My <span>Skills</span></h2>
+  <div class="skills">
+    <div class="card"><h3>HTML</h3><p>Building webpage structure</p></div>
+    <div class="card"><h3>CSS</h3><p>Creating attractive designs</p></div>
+    <div class="card"><h3>JavaScript</h3><p>Learning interactive websites</p></div>
+    <div class="card"><h3>React</h3><p>Exploring component-based development</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>My <span>Projects</span></h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Personal Portfolio</h3>
+      <p>A website to introduce myself and showcase my skills.</p>
+    </div>
+    <div class="card">
+      <h3>Web Design Practice</h3>
+      <p>Practice layouts created while learning HTML and CSS.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact <span>Me</span></h2>
+  <p>Thank you for visiting my portfolio!</p>
+  <p>I'm looking forward to learning, connecting, and building new projects.</p>
+  <a class="button" href="https://github.com/sasnr17">Visit My GitHub</a>
+</section>
+
+  </main>  <footer>
+    <p>© 2026 Sathyasreya N. | Personal Portfolio</p>
+  </footer></body>
+    </html>
